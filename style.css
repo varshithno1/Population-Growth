@@ -1,12 +1,21 @@
+:root{
+    --main: #A2D6F9;
+    --dark: #002A32;
+    --grey: #655560;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .maincol{
-    background-color: lightblue;
+    background-color: var(--main);
 }
 
 .wrap::after, .hero-wrap::after{
@@ -14,7 +23,7 @@
     content: '';
     width: 100vw;
     height: 1px;
-    background-color: black;
+    background-color: var(--dark);
 }
 
 .mwid{
@@ -56,6 +65,10 @@ a{
     color: black;
 }
 
+body{
+    width: 100vw;
+}
+
 /* Hero */
 .hero{
     display: flex;
@@ -86,7 +99,7 @@ a{
 }
 
 .btn a{
-    background-color: black;
+    background-color: var(--dark);
     border-radius: 50px;
     padding: 10px 35px 10px 35px;
     color: white;
@@ -105,7 +118,7 @@ a{
     content: '';
     width: 100vw;
     height: 1px;
-    background-color: rgba(128, 128, 128, 0.364);
+    background-color: var(--grey);
 }
 
 .section ul{
@@ -138,7 +151,7 @@ a{
 
 /* Footer */
 .foot-cont{
-    background-color: black;
+    background-color: var(--dark);
     color: white;
     display: flex;
     align-items: center;
