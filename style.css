@@ -246,6 +246,7 @@ body{
     padding: 30px;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10vw;
     text-align: center;
 }
@@ -268,6 +269,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2vh;
+}
+
+.m1{
+    background-image: url(./images/varshith.jpg);
+    background-size: 200px;
+    background-position: -15px -60px;
+}
+
+.m2{
+    background-image: url(./images/shivam.jpg);
+    background-size: 400px;
+    background-position: -125px 0px;
 }
 
 /* Footer */
