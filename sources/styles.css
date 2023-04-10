@@ -21,9 +21,9 @@
     justify-content: center;
     gap: 1vw;
     text-align: center;
-}
-
-.hero-con2{
+    backdrop-filter: blur(8px);
+    color: white;
+    text-shadow: 0px 0px 30px white;
 }
 
 .hero-data{
@@ -42,10 +42,10 @@
 }
 
 .hero-cont span{
-    border: 1px solid var(--dark);
+    border: 1px solid white;
     padding: 15px;
     font-size: 40px;
-    text-shadow: 0px 0px 30px var(--dark);
+    text-shadow: 0px 0px 30px white;
     border-radius: 50%;
 }
 
@@ -56,6 +56,71 @@ header nav{
 header{
     justify-content: center;
     text-align: center;
+}
+
+.ieg{
+    background-image: url(https://www.pd.co.ke/wp-content/uploads/2020/01/Economic-growth-2.gif);
+    /* backdrop-filter: blur(20px); */
+    background-size: cover;
+    background-position: center;
+}
+
+.iac{
+    background-image: url(https://www.marketing91.com/wp-content/uploads/2020/07/Types-of-Resources.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cd{
+    background-image: url(https://i0.wp.com/blog.ureed.com/wp-content/uploads/2020/05/teamwork_equality_multi-cultural_diversity-100737996-large-1.jpg?fit=1200%2C800&ssl=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.iw{
+    background-image: url(https://energycentral.com/sites/default/files/styles/article_body/public/ece/nodes/341482/dreamstime_m_40979530.jpg?itok=18kUJUQb);
+    background-size: cover;
+    background-position: center;
+}
+
+.id{
+    background-image: url(https://thumbs.dreamstime.com/b/chalkboard-drawing-increasing-business-graph-up-arrow-inscription-demand-148087871.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sor{
+    background-image: url(https://th.bing.com/th/id/OIP.1vvh_fyyjTcEOD8rQIOBAAHaE8?pid=ImgDet&w=5100&h=3400&rs=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.poi{
+    background-image: url(https://content.api.news/v3/images/bin/6d7cd47c61f481350959d36871799804);
+    background-size: cover;
+    background-position: center;
+}
+
+.ic{
+    background-image: url(https://th.bing.com/th/id/OIP.qGtSgfgQgerMORCOQHYxIAHaEJ?pid=ImgDet&w=1000&h=560&rs=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.sod{
+    background-image: url(https://cdnph.upi.com/svc/sv/upi/9351453829116/2016/1/67b8d7cd22f84b8b209bc9afe2c82610/Media-coverage-can-help-slow-disease-spread-during-epidemic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sapi{
+    background-image: url(https://polyhistoria.com/wp-content/uploads/2019/12/trump-tweets-1400x933.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap{
+    padding-right: 0px;
 }
 
 @media screen and (max-width: 600px){

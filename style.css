@@ -246,6 +246,10 @@ footer span{
 }
 
 @media screen and (max-width: 600px) {
+    .wrap{
+        padding-right: 0px;
+    }
+    
     header{
         display: block;
     }
