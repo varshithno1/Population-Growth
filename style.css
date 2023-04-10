@@ -57,6 +57,7 @@ h2{
 }
 
 .hero-btn{
+    cursor: pointer;
     font-size: 19px;
     width: fit-content;
     width: -moz-fit-content;
@@ -80,11 +81,6 @@ h2{
 .hero-btn:hover{
     transform:translateY(-3px);
     transition: all 200ms;
-}
-
-.scrolled{
-    background-color: white;
-    box-shadow: 0px 0px 10px black;
 }
 
 /* Advantages */
@@ -154,6 +150,7 @@ h2{
 }
 
 .section span{
+    text-shadow: 0 0 10px rgba(128, 128, 128, 0.361);
     font-size: 30px;
     color: rgba(128, 128, 128, 0.361);
 }

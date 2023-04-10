@@ -1,6 +1,8 @@
 const nav = document.querySelector(".wrap");
 const hero = document.querySelector(".hero-wrap");
-const more = document.querySelector(".matter");
+
+// const more = document.querySelector(".matter");
+
 const herop = document.querySelector(".hide");
 const herobtn = document.querySelector(".hero-btn");
 const heroa = document.querySelector(".know-more");
