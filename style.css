@@ -218,6 +218,12 @@ h2{
     background-position: -125px 0px;
 }
 
+.m3{
+    background-image: url(./images/vignan.jpeg);
+    background-size: 500px;
+    background-position: -140px -50px;
+}
+
 /* Footer */
 .foot-cont{
     background-color: var(--dark);
